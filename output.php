@@ -1,7 +1,8 @@
 <?php 
 
 if(isset($_POST['submit'])){
-  echo "Send";
+  $branchID = $_POST['BranchID '];
+  $Location = $_POST['Location'];
 }
 else{
     echo "Di na send";

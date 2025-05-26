@@ -5,7 +5,7 @@
 
 <form action="output.php" method="post">
    <label for="BranchID">Branch ID</label>
-        <input type="text"  name="BranchID"></input><br>
+        <input type="number"  name="BranchID"></input><br>
    <label for="Location">Location</label>
         <input type="text" name="Location"></input><br>
    <label for="BranchID">Branch ID</label>
