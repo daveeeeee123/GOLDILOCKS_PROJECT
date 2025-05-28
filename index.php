@@ -1,8 +1,9 @@
-<html>
+<>
 <head></head>
-    <link rel="style.csss">
 <body>
+    <link rel="style.csss">
 
+ <div class="form-1"> 
 <form action="output.php" method="post">
    <label for="BranchID">Branch ID</label>
         <input type="text"  name="BranchID"></input><br>
@@ -14,6 +15,7 @@
     <input type="number" name="CompanyID"></input><br>
     <input type="submit" name="submit" value="submit"></input>
     </form>
+</div>
 </body>
     
 
