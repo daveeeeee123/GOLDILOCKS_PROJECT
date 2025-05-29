@@ -6,10 +6,10 @@ if(isset($_POST['submit'])){
   $Owner = $_POST['Owner'];
   $CompanyID = $_POST['CompanyID'];
 
-  echo $BranchID; 
-  echo $Location; 
-  echo $Owner; 
-  echo $CompanyID; 
+  echo $BranchID. '<br>'; 
+  echo $Location. '<br>'; 
+  echo $Owner. '<br>'; 
+  echo $CompanyID . '<br>'; 
 
 
 }
